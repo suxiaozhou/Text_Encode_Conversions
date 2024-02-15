@@ -4,7 +4,6 @@ Created on Fri Sep 29 21:23:44 2023
 
 @author: suxiaozhou
 
-Using AI technology to help to Created.
 """
 
 import os
@@ -13,7 +12,7 @@ import chardet
 
 #Optional variables#########################################
 path="mycode/";
-mode=1;#1 mean GB2312 to UTF-8;0 mean UTF-8 to GB2312.
+mode=1;#  输入1表示将GB2312编码的文件转换成UTF-8编码的文件,输入0表示将UTF-8编码的文件转换成GB2312编码的文件.
 file_extensions='.cpp';#后缀
 ############################################################
 
